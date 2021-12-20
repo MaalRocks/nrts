@@ -1,3 +1,5 @@
+import 'variables'
+
 .blogPostWrapper
     @apply flex justify-center items-center bg-purple-700
 
@@ -8,7 +10,9 @@
     @apply self-center
 
 .blogPostHeadline
-    @apply text-xl font-bold
+    font-size: 2rem
+    color: $primary-color
+    @apply font-bold p-3
 
 .blogPostSection
     @apply p-20 w-1/5 text-lg
