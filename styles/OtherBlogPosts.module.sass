@@ -1,24 +1,20 @@
 @import 'variables'
 
 .wrapper
-    background-color: $dark
-    @apply flex justify-center items-center
+    @apply flex justify-center items-center bg-dark
 
 .content
-    background-color: $dark
-    @apply flex flex-col justify-center w-3/5 text-white
+    @apply flex flex-col justify-center w-3/5 text-white bg-dark
 
 .otherBlogPostsHeader
     @apply self-center
 
 .otherBlogPostsHeadline
     font-size: 2rem
-    color: $light
-    @apply font-bold p-3
+    @apply font-bold p-3 text-light
 
 .otherBlogPostsSection
-    color: $light
-    @apply flex flex-col self-center p-4 text-lg
+    @apply flex flex-col self-center p-4 text-lg text-light
 
 .otherBlogPostsSectionItem
     @apply p-2 self-center

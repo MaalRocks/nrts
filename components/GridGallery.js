@@ -1,6 +1,6 @@
 import React from 'react'
 import styles from 'C:/Users/Lono/Desktop/React/nrts/styles/GridGallery.module.sass'
-import GalleryImage from '../components/GalleryImage';
+import Image from '../components/Image'
 
 let imageArray = [
     "1",
@@ -13,8 +13,8 @@ let imageArray = [
 
 function GalleryImageFrame(props) {
     return (
-        <div className="gallery-image-frame">
-            <GalleryImage imageName={props.imageName} />
+        <div className="">
+            <Image folder="gallery" imageName={props.imageName} />
         </div>
     )
 }
@@ -23,7 +23,7 @@ export default function GridGallery() {
     return (
         <div className={styles.wrapper}>
             <div className={styles.gridGallery}>
-                {imageArray.map((galleryImage) => <GalleryImageFrame key={galleryImage} imageName={galleryImage} />)}
+                {imageArray.map((Image) => <GalleryImageFrame key={Image} imageName={Image} />)}
             </div>
 
         </div>
