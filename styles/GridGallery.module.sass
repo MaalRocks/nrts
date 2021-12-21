@@ -1,0 +1,20 @@
+@import 'variables'
+
+.gridGallery
+    @apply grid grid-rows-3 grid-cols-3 self-center items-center max-h-screen min-h-screen
+
+    div
+        height: 80%
+        width: 80%
+
+        img
+            filter: brightness(50%)
+            object-fit: cover
+            border: 5px solid $light
+
+            :hover
+                transition: filter .5s ease-in-out
+                filter: none
+
+    :nth-child(1n+7)
+        display: none
