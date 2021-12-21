@@ -4,9 +4,9 @@ import styles from 'C:/Users/Lono/Desktop/React/nrts/styles/OtherBlogPosts.modul
 
 export default function otherBlogPosts(props) {
     return (
-        <div class={styles.wrapper}>
-            <article class={styles.content}>
-                <header class={styles.otherBlogPostsHeader}>
+        <div className={styles.wrapper}>
+            <article className={styles.content}>
+                <header className={styles.otherBlogPostsHeader}>
                     <h2 className={styles.otherBlogPostsHeadline}>- Zuletzt gepostet -</h2>
                 </header>
                 <p className={styles.otherBlogPostsSection}>

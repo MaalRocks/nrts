@@ -1,14 +1,16 @@
 module.exports = {
-  purge: [
-    './src/components/**/*.js',
+  content: [
+    './components/**/*.js',
     './pages/**/*.js'],
   theme: {
-    extend: {},
+    extend: {
+      colors: {
+        'primary-color': '#8B2123'
+      }
+    },
   },
   variants: {},
   plugins: [
-    require('tailwindcss'),
-    require('precss'),
-    require('autoprefixer')
+
   ]
 }
