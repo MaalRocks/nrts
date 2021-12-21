@@ -1,8 +1,9 @@
 import Head from 'next/head'
-import BlogPost from '../../components/BlogPost'
 import Navbar from '../../components/Navbar'
+import BlogPost from '../../components/BlogPost'
+import OtherBlogPosts from '../../components/OtherBlogPosts'
 
-export default function Home() {
+export default function Blog() {
   return (
     <div className="">
       <Head>
@@ -13,6 +14,8 @@ export default function Home() {
       <Navbar />
 
       <BlogPost title="erster eiintrag" blogPostText="ololoolo" author="Samuel" comments="0" />
+
+      <OtherBlogPosts />
 
       <footer className="flex items-center justify-center w-full h-24 border-t">
 

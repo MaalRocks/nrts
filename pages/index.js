@@ -1,7 +1,7 @@
-import Home from './home'
+import Blog from './blog'
 
 export default function Index() {
   return (
-    <Home />
+    <Blog />
   )
 }

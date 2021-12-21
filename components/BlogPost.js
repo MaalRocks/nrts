@@ -3,7 +3,7 @@ import styles from 'C:/Users/Lono/Desktop/React/nrts/styles/BlogPost.module.sass
 
 export default function BlogPost(props) {
     return (
-        <main className={styles.blogPostWrapper}>
+        <main className={styles.wrapper}>
             <article className={styles.blogPost}>
                 <header className={styles.blogPostHeader}>
                     <h1 className={styles.blogPostHeadline}> {props.title} </ h1>
