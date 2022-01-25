@@ -1,5 +1,5 @@
 import React from 'react';
-import styles from 'C:/Users/Lono/Desktop/React/nrts/styles/Navbar.module.sass'
+import styles from '../styles/Navbar.module.sass'
 import Link from 'next/link'
 
 export default function Navbar() {

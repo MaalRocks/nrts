@@ -1,6 +1,6 @@
 import React from 'react'
 import Link from 'next/link'
-import styles from 'C:/Users/Lono/Desktop/React/nrts/styles/OtherBlogPosts.module.sass'
+import styles from '../styles/OtherBlogPosts.module.sass'
 
 export default function otherBlogPosts(props) {
     return (

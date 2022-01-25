@@ -6,7 +6,6 @@ export default function Image(props) {
             className=""
             src={"/" + props.folder + "/" + props.imageName + ".jpg"}
             alt="imags"
-
         />
     )
 }

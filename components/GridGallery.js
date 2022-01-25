@@ -1,5 +1,5 @@
 import React from 'react'
-import styles from 'C:/Users/Lono/Desktop/React/nrts/styles/GridGallery.module.sass'
+import styles from '../styles/GridGallery.module.sass'
 import Image from '../components/Image'
 
 let imageArray = [

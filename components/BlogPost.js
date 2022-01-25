@@ -1,5 +1,5 @@
 import React from 'react';
-import styles from 'C:/Users/Lono/Desktop/React/nrts/styles/BlogPost.module.sass'
+import styles from '../styles/BlogPost.module.sass'
 
 export default function BlogPost(props) {
     return (
